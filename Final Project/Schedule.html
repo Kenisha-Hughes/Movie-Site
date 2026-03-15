@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Schedule</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Movie.css" rel="stylesheet">
+    <style>
+       
+        .schedule-box {
+            background-color: #1e1e1e; 
+            border-radius: 15px; 
+            color: #fff; 
+            margin-bottom: 20px; 
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+        }
+        
+        .schedule-box h4 {
+            margin-bottom: 20px; 
+        }
+        
+        .schedule-box .time {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .schedule-box .movie-title {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        
+        .schedule-box .btn {
+            display: inline-block;
+            margin-top: 15px; 
+            padding: 10px 20px;
+            font-size: 1.1em;
+            background-color: #ff6600; 
+            border: none;
+            border-radius: 25px; 
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        .schedule-box .btn:hover {
+            background-color: #0056b3; 
+        }
+
+        .movie-page {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .moive-page:hover{
+            color: #ff6347 !important;
+        }
+        
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1c1c1c;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+            </style>
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">FSC Theater</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Schedule</a>
+                   </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login_Page.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login_Page.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Movie Schedule</h2>
+        <!-- Schedule Structure and this repeats with different movies -->
+        <div class="row">
+            <!-- Day 1 -->
+            <div class="col-12 mb-4">
+                <div class="schedule-box p-4 rounded shadow-sm">
+                    <h4>December 7, 2024</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="time">3:30 PM</p>
+                            <p class="movie-title">GLADIATOR II (2024)</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="time">6:30 PM</p>
+                            <p class="movie-title">Wicked (2024)</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="time">9:30 PM</p>
+                            <p class="movie-title">GET FAST (2024)</p>
+                        </div>
+                    </div>
+                    <button class="btn mt-3" onclick="window.location.href='Login_Page.html'">Buy Ticket</button>
+                </div>
+            </div>
+            <!-- Day 2 Starts Here-->
+            <div class="col-12 mb-4">
+                <div class="schedule-box p-4 rounded shadow-sm">
+                    <h4>December 8, 2024</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="time">3:30 PM</p>
+                            <p class="movie-title">RED ONE (2024)</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="time">6:30 PM</p>
+                            <p class="movie-title">VENOM: THE LAST DANCE (2024)</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="time">9:30 PM</p>
+                            <p class="movie-title">MOANA 2 (2024)</p>
+                        </div>
+                    </div>
+                    <button class="btn mt-3" onclick="window.location.href='Login_Page.html'">Buy Ticket</button>
+                </div>
+            </div>
+            <!-- Day 3 Schedule-->
+            <div class="col-12 mb-4">
+                <div class="schedule-box p-4 rounded shadow-sm">
+                    <h4>December 9, 2024</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="time">3:30 PM</p>
+                            <p class="movie-title">ARMOR (2024)</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="time">6:30 PM</p>
+                            <p class="movie-title">ELF (2003)</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="time">9:30 PM</p>
+                            <p class="movie-title">GLADIATOR II (2024)</p>
+                        </div>
+                    </div>
+                    <button class="btn mt-3" onclick="window.location.href='Login_Page.html'">Buy Ticket</button>
+                </div>
+            </div>
+            <!-- Day 4 begins here-->
+            <div class="col-12 mb-4">
+                <div class="schedule-box p-4 rounded shadow-sm">
+                    <h4>December 10, 2024</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="time">3:30 PM</p>
+                            <p class="movie-title">Moana 2 (2024)</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="time">6:30 PM</p>
+                            <p class="movie-title">RED ONE (2024)</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="time">9:30 PM</p>
+                            <p class="movie-title">GET FAST (2024)</p>
+                        </div>
+                    </div>
+                    <button class="btn mt-3" onclick="window.location.href='Login_Page.html'">Buy Ticket</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Footer -->
+    <footer class="footer text-center mt-5">
+        <div class="container">
+              <p>&copy; 2024 FSC Theater. All Rights Reserved.</p>
+        </div>
+      </footer> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

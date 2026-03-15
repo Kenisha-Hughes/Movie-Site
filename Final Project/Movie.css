@@ -1,0 +1,91 @@
+body {
+    background-color: #121212;  
+    color: #e0e0e0;  
+    margin: 0;  /* Remove default margin */
+    padding: 0;  /* Remove default padding */
+    height: 100%; /* Ensure the body takes full height */
+}
+
+.navbar {
+    background-color: #333333;  
+}
+
+.navbar-brand, .nav-link {
+    color: #f0f0f0 !important;  
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff6600 !important;  
+}
+
+.card {
+    background-color: #121212;  
+    color: #e0e0e0;  
+    border: 2px solid #444444;  
+    margin-bottom: 20px;  
+    border-radius: 10px;  
+}
+
+.card-body {
+    background-color: #121212;  
+}
+
+.card-title {
+    color: #ff6600;  
+}
+
+.text-muted {
+    color: #bbbbbb !important;  
+}
+
+.btn-danger, .btn-primary {
+    background-color: #ff6600; 
+    border-color: #ff6600;
+}
+
+.btn-danger:hover, .btn-primary:hover {
+    background-color: #e65c00;
+    border-color: #e65c00;
+}
+
+.footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;  
+    position: relative; 
+    bottom: 0; 
+    left: 0;
+}
+
+.card img {
+    object-fit: cover;
+    height: 450px;  
+    width: 79%;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.movie-time {
+    background-color: #555555;
+    color: #fff;
+    padding: 5px;
+    margin-left: 0px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+
+.movie-time .date {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.movie-time .time {
+    font-size: 1.5em;
+    font-weight: bold;
+}

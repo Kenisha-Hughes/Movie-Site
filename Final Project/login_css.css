@@ -1,0 +1,26 @@
+body {
+  background-color: #1c1c1c;
+
+color: white;
+
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+color: white;
+
+background-color: #323232;
+
+}
+
+#registerForm {
+  display:none;
+}
+
+h3{
+
+color: white;
+
+}
